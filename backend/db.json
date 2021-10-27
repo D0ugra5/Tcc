@@ -1,0 +1,30 @@
+{
+  "usuario": [
+
+    {
+      "id":"34",
+      "nome":"douglas",
+      "Sobrenome":"Sousa",
+      "email":"douglasmb87@gmail.com",
+      "profissao":"supply chain",
+      "Github":"D0ugra5",
+      "linkedin":"Douglas Sousa ",
+      "senha":"Douglas123"
+
+    }
+
+  ],
+  "perguntas": [
+    {
+      "id": 1,
+      "titulo": "Como agir durante a daily",
+      "subtitulo":"estou com muita duvida do que perguntar na hora da daily alguem pode me ajudar ?",
+      "data":"15/04/2021",
+      "autor_da_pergunta":"Douglas"
+    },
+    {
+      "nome": "douglasmb87@gmail.com",
+      "id": 2
+    }
+  ]
+}
