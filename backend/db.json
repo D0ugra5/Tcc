@@ -23,8 +23,20 @@
       "autor_da_pergunta":"Douglas"
     },
     {
-      "nome": "douglasmb87@gmail.com",
-      "id": 2
+      "id": 2,
+      "titulo": "Como crescer na carreira DEV, de junior a especialista",
+      "subtitulo":"estou com muita duvida do que perguntar na hora da daily alguem pode me ajudar ?",
+      "data":"15/04/2021",
+      "autor_da_pergunta":"Douglas"
+    },
+
+
+    {
+      "id": 3,
+      "titulo": "Como evitar o burnout e a saude mental",
+      "subtitulo":"estou com muita duvida do que perguntar na hora da daily alguem pode me ajudar ?",
+      "data":"15/04/2021",
+      "autor_da_pergunta":"Douglas"
     }
   ]
 }

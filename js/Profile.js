@@ -41,9 +41,8 @@ function getUsuario(){
     
 
 }
-
-
 $(window).on("load", function(){
 
-    getUsuario();
-  })
+  getUsuario();
+
+})

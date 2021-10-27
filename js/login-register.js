@@ -95,42 +95,44 @@ function loginAjax(){
 $(window).on("load", function(){
     if(localStorage.getItem("login")) {
         $(document.getElementById("loginLi")).hide()
-       
+        $(document.getElementById("pergunta")).show()
+      
         $(document.getElementById("img-login")).show();
     }else{
+        $(document.getElementById("pergunta")).hide()
         $(document.getElementById("img-login")).hide();
     }
 
 
-        function  carregaPerguntas(){
+        // function  carregaPerguntas(){
 
 
 
-            (async () => {
-                const rawResponse = await fetch('http://localhost:3001/perguntas/1', {
-                  method: 'GET',
-                  headers: {
-                    'Accept': 'application/json',
-                    'Content-Type': 'application/json'
-                  },
+        //     (async () => {
+        //         const rawResponse = await fetch('http://localhost:3001/perguntas/1', {
+        //           method: 'GET',
+        //           headers: {
+        //             'Accept': 'application/json',
+        //             'Content-Type': 'application/json'
+        //           },
                   
-                });
+        //         });
 
 
-                const resp = await rawResponse.json();
-                console.log(resp)
-                const{titulo,subtitulo,data,autor_da_pergunta} = resp;
+        //         const resp = await rawResponse.json();
+        //         console.log(resp)
+        //         const{titulo,subtitulo,data,autor_da_pergunta} = resp;
 
-                $(document.getElementById("titulo")).text(titulo)
-                $(document.getElementById("subtitulo")).text(subtitulo)
-                $(document.getElementById("data")).text("Postada em "+data+"")
-                $(document.getElementById("autor")).text(autor_da_pergunta)
+        //         $(document.getElementById("titulo")).text(titulo)
+        //         $(document.getElementById("subtitulo")).text(subtitulo)
+        //         $(document.getElementById("data")).text("Postada em "+data+"")
+        //         $(document.getElementById("autor")).text(autor_da_pergunta)
 
-            })();
+        //     })();
 
-        }
+        // }
 
-        carregaPerguntas()
+        // carregaPerguntas()
 
  });
 
@@ -164,5 +166,8 @@ function shakeModal(){
                 $('#loginModal .modal-dialog').removeClass('shake'); 
     }, 1000 ); 
 }
+
+
+
 
    
