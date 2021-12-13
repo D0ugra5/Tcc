@@ -138,6 +138,12 @@ $(window).on("load", function(){
 
 
  async function  CreateAccount(){
+
+    const nome = $(document.getElementById("nome_create")).val();
+    console.log(nome)
+    const Sobrenome = $(document.getElementById("Sobrenome_create")).val();
+    const linkedin = $(document.getElementById("linkedin_create")).val();
+    const github = $(document.getElementById("github_create")).val();
     const emailSite = $(document.getElementById("emailCreate")).val();
     const senhaSite = $(document.getElementById("passwordCreate")).val();
     const confirmaSenhaSite = $(document.getElementById("password_confirmation")).val();
@@ -149,7 +155,7 @@ $(window).on("load", function(){
             'Accept': 'application/json',
             'Content-Type': 'application/json'
           },
-          body: JSON.stringify({email: emailSite, senha: confirmaSenhaSite})
+          body: JSON.stringify({email: emailSite, senha: confirmaSenhaSite, nome:nome,Sobrenome:Sobrenome, linkedin:linkedin, github:github})
         });
 
      const resposta = await resp.json();
