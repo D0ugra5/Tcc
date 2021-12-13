@@ -32,32 +32,17 @@
       "subtitulo": "estou com muita duvida do que perguntar na hora da daily alguem pode me ajudar ?",
       "data": "15/04/2021",
       "autor_da_pergunta": "Douglas"
-    },
+    }
+  ],
+  "resposta": [
     {
-      "titulo": "Como agir durante a daily35",
-      "subtitulo": "estou com muita duvida do que perguntar na hora da daily alguem pode me ajudar ?",
-      "autor_da_pergunta": "Jabinho",
-      "id": 4
-    },
-    {
-      "titulo": "Teste",
-      "subtitulo": "Teste",
-      "id": 5
-    },
-    {
-      "titulo": "dadadadad",
-      "subtitulo": "adadadada",
-      "id": 6
-    },
-    {
-      "titulo": "dadadadaada",
-      "subtitulo": "dadadadadad",
-      "id": 7
-    },
-    {
-      "titulo": "Zaza Gay ",
-      "subtitulo": "O zaza e gay ctz",
-      "id": 8
+      "titulo": "Testes",
+      "subtitulo": "Testes",
+      "id_pergunta": "3",
+      "autor_pergunta": "douglas",
+      "Like": 2,
+      "data": "13/12/2021",
+      "id": 1
     }
   ]
 }

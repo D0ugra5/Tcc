@@ -17,6 +17,8 @@
         <script src="js/jquery-1.10.2.js" type="text/javascript"></script>
         <script src="js/login-register.js" type="text/javascript"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>
+        <script src="js/Pergunta.js" type="text/javascript"></script>
+        
       
     </head>
     <body>
@@ -129,49 +131,20 @@
                          Escreva Sua Opnião Aqui
                         </div>
                         <div class="card-body">
-                            <form action="">
-                                <input type="text" placeholder="Digite Aqui o Titulo" name="" id="" class="form-control">
-                                <input type="text"  placeholder="Digite Aqui a sua Opnião" name="" id="" class="form-control mt-4">
-                                <button class="btn btn-primary mt-4" type="submit">Enviar</button>
+                            <form >
+                                <label for="">Titulo da Resposta</label>
+                                <input type="text" placeholder="Digite aqui o Titulo" name="" id="tituloResposta" class="form-control">
+                                <label class="mt-4" for="">Descrição</label>
+                                <textarea type="text"  placeholder="Digite aqui a sua Opnião" name="" id="subtituloResposta" class="form-control "></textarea>
+                                <button class="btn btn-primary mt-4" onclick="FazPergunta()" type="submit">Enviar</button>
                             </form>
                         
                         
                               
                           </div>
                         </div>
-                 
-                        <div class="card mt-4">
-                            <div class="card-header">
-                             Respondida Por Claudio Tecnico em Informatica Resposta feita em 15/04/2021
-                            </div>
-                            <div class="card-body">
-                              <h5 class="card-title">Seguindo o Conceito de Scrum</h5>
-                              <p class="card-text">A Daily é um evento chave para melhorar a comunicação, eliminar outras reuniões, identificar impedimentos e melhorar o nível de conhecimento do time, por meio da inspeção e adaptação do Sprint Backlog e também uma forma de dar transparência para todos os membros do time</p>
-                              <div class="div-like">
-                                  <a href="">
-                                    <img id="like" src="assets/img/love.png" alt="">
-                                    1
-                                  </a>
-                                  
-                              </div>
-                            </div>
-                  </div>
-
-                  <div class="card mt-4">
-                    <div class="card-header">
-                     Respondida Por Gabriel Software Engineer Resposta feita em 15/04/2021
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Daily</h5>
-                      <p class="card-text">A Daily e um ambiente que você tem como obrigação contar a seu time sobre suas tarefas de forma resumida contando oque foi finalizado, e se tiver algum empecilho que outros membros possa ajudar esse ponto deve ser passado na daily</p>
-                      <div class="div-like">
-                          <a href="">
-                            <img id="like" src="assets/img/love.png" alt="">
-                          3
-                          </a>
-                          
-                      </div>
-                    </div>
+                <div id="multiplaResp">
+                      
           </div>
 
           

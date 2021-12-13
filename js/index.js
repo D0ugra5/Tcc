@@ -1,3 +1,4 @@
+
 function mostraPerguntas(){
 
 
@@ -15,15 +16,17 @@ function mostraPerguntas(){
 
             for(let i=0; i<resp.length; i++){
                 console.log(resp[i].titulo)
-                  document.getElementById('post-perguntas').innerHTML += "<a href='post.html'> <h2 id='titulo' class='post-title'>"+resp[i].titulo+"</h2><h3 id='subtitulo' class='post-subtitle'>"+resp[i].subtitulo+"</h3></a><p id='data' class='post-meta'>Posted by <a id='autor' href='#!'>"+resp[i].autor_da_pergunta+" </a>"+resp[i].data+" </p></div><!-- Divider--><hr class='my-4' />"
+                  document.getElementById('post-perguntas').innerHTML += "<a href='post.html' onClick='pegaId("+resp[i].id+")'> <p id='idPergunta'hidden>"+resp[i].id+"</p><h2 id='titulo' class='post-title'>"+resp[i].titulo+"</h2><h3 id='subtitulo' class='post-subtitle'>"+resp[i].subtitulo+"</h3></a><p id='data' class='post-meta'>Posted by <a id='autor' href='#!'>"+resp[i].autor_da_pergunta+" </a>"+resp[i].data+" </p></div><!-- Divider--><hr class='my-4' />"
             }
      
+
+
+
      
 
        
 
     })();
-
 
 
 
@@ -33,6 +36,9 @@ function mostraPerguntas(){
 
 }
 
+function pegaId(idPergunta){
+  localStorage.setItem('pergunta',idPergunta)
+}
 
 $(window).on("load", function(){
 
