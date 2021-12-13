@@ -29,13 +29,15 @@
     }
 
     function FazPergunta(){
+        if(!localStorage.getItem('login')){
+            alert("Realize o Login para responder")
+        }
 
-
-        let Atitulo = $(document.getElementById('tituloResposta')).val()
+    
         let Amessage = $(document.getElementById('subtituloResposta')).val()
        
-       
-           const data = { titulo: Atitulo, subtitulo:Amessage,
+       console.log(Amessage)
+           const data = { subtitulo:Amessage,
              id_pergunta:localStorage.getItem("pergunta"), autor_pergunta:localStorage.getItem("login").split(",")[2], Like:0, data:dataAtualFormatada() };
        
            fetch('http://localhost:3001/resposta', {
@@ -82,7 +84,6 @@
                 +'Respondida Por '+resp[i].autor_pergunta+'  Resposta feita em '+resp[i].data+''
                 +' </div>'
                 +'<div class="card-body">'
-                +' <h5 class="card-title">'+resp[i].titulo+'</h5>'
                 +'<p class="card-text">'+resp[i].subtitulo+'</p>'
                 +'<div class="div-like">'
                 +'<a onClick="ChamaLike('+resp[i].id+')">'

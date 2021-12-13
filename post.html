@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Clean Blog - Start Bootstrap Theme</title>
+        <title>2AM</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
@@ -56,10 +56,14 @@
                               <div class="content registerBox" style="display:none;">
                                <div class="form">
                                   <form method="" html="{:multipart=>true}" data-remote="true" action="" accept-charset="UTF-8">
-                                  <input required id="emailCreate" class="form-control" type="text" placeholder="Email" name="email">
-                                  <input required id="passwordCreate" class="form-control" type="password" placeholder="Password" name="password">
-                                  <input required id="password_confirmation" class="form-control" type="password" placeholder="Repeat Password" name="password_confirmation">
-                                  <input  class="btn btn-default btn-register" type="button" onclick="CreateAccount()" value="Create account" name="commit">
+                                    <input required id="emailCreate" class="form-control" type="text" placeholder="Email" name="email">
+                                    <input required id="passwordCreate" class="form-control" type="password" placeholder="Password" name="password">
+                                    <input required id="password_confirmation" class="form-control" type="password" placeholder="Repeat Password" name="password_confirmation">
+                                    <input required id="nome_create" class="form-control" type="text" placeholder="Nome" name="password_confirmation">
+                                    <input required id="Sobrenome_create" class="form-control"type="text"  placeholder="Sobrenome" name="password_confirmation">
+                                    <input required id="linkedin_create" class="form-control"type="text"  placeholder="linkedin" name="linkedin">
+                                    <input required id="github_create" class="form-control"type="text"  placeholder="Github" name="Github">
+                                    <input  class="btn btn-default btn-register" type="button" onclick="CreateAccount()" value="Create account" name="commit">
                                   </form>
                                   </div>
                               </div>
@@ -132,9 +136,9 @@
                         </div>
                         <div class="card-body">
                             <form >
-                                <label for="">Titulo da Resposta</label>
-                                <input type="text" placeholder="Digite aqui o Titulo" name="" id="tituloResposta" class="form-control">
-                                <label class="mt-4" for="">Descrição</label>
+                               
+                                <input type="text" hidden placeholder="Digite aqui o Titulo" name="" id="tituloResposta" class="form-control">
+                                <label class="mt-4" for="">Resposta</label>
                                 <textarea type="text"  placeholder="Digite aqui a sua Opnião" name="" id="subtituloResposta" class="form-control "></textarea>
                                 <button class="btn btn-primary mt-4" onclick="FazPergunta()" type="submit">Enviar</button>
                             </form>

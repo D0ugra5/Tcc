@@ -53,6 +53,21 @@
     }
   ],
   "resposta": [
-    
+    {
+      "subtitulo": "Testes",
+      "id_pergunta": "2",
+      "autor_pergunta": "douglas",
+      "Like": 2,
+      "data": "13/12/2021",
+      "id": 1
+    },
+    {
+      "subtitulo": "daddadadad",
+      "id_pergunta": "2",
+      "autor_pergunta": "Jão",
+      "Like": 0,
+      "data": "13/12/2021",
+      "id": 2
+    }
   ]
 }

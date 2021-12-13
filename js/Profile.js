@@ -23,12 +23,12 @@ function getUsuario(){
         
         CloseLoginModal()
         
-        const {0:{email,senha,nome,Sobrenome,profissao,Github,linkedin}} = content
+        const {0:{email,senha,nome,Sobrenome,profissao,github,linkedin}} = content
 
-            console.log(email,senha,nome,Sobrenome,profissao,Github,linkedin)
+            console.log(email,senha,nome,Sobrenome,profissao,github,linkedin)
             $(document.getElementById("nome")).text(nome)
             $(document.getElementById("profissao")).text(profissao)
-            $(document.getElementById("github")).text(Github)
+            $(document.getElementById("github")).text(github)
             $(document.getElementById("link")).text(linkedin)
             $(document.getElementById("nomeCompleto")).text(""+nome+"  "+Sobrenome+"")
             $(document.getElementById("email")).text(email)
@@ -41,6 +41,13 @@ function getUsuario(){
     
 
 }
+
+function Sair(){
+  localStorage.clear();
+
+  window.location.href = "index.html";
+}
+
 $(window).on("load", function(){
 
   getUsuario();

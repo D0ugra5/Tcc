@@ -159,8 +159,11 @@ $(window).on("load", function(){
         });
 
      const resposta = await resp.json();
+     CloseLoginModal()
+
         if(resposta == resposta.length) return shakeModal()
-       
+
+
     console.log(resposta)
 }
 
