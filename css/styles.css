@@ -76,6 +76,8 @@
   }
 }
 
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -87,6 +89,22 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+.card{
+  margin-top: 15px;
+}
+.div-like{
+  position:absolute;
+  right:10px;
+  bottom: 5px;
+
+
+}
+
+#like{
+  width: 30px;
 }
 
 hr {
