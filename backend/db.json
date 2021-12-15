@@ -33,21 +33,21 @@
     {
       "id": 1,
       "titulo": "Como agir durante a daily",
-      "subtitulo": "estou com muita duvida do que perguntar na hora da daily alguem pode me ajudar ?",
+      "subtitulo": "estou com muita duvida do que perguntar na hora da daily, alguem pode me ajudar ?",
       "data": "15/04/2021",
       "autor_da_pergunta": "Douglas"
     },
     {
       "id": 2,
-      "titulo": "Como crescer na carreira DEV, de junior a especialista",
-      "subtitulo": "estou com muita duvida do que perguntar na hora da daily alguem pode me ajudar ?",
+      "titulo": "Como expressar minha opnião",
+      "subtitulo": "sou Dev junior e fico com medo de expressar minha opnião tecnica para outros devs oque devo fazer ?",
       "data": "15/04/2021",
       "autor_da_pergunta": "Douglas"
     },
     {
       "id": 3,
       "titulo": "Como evitar o burnout e a saude mental",
-      "subtitulo": "estou com muita duvida do que perguntar na hora da daily alguem pode me ajudar ?",
+      "subtitulo": "estou sobrecarregado como devo proseguir para não ter problemas de saude ?",
       "data": "15/04/2021",
       "autor_da_pergunta": "Douglas"
     }
@@ -68,6 +68,14 @@
       "Like": 0,
       "data": "13/12/2021",
       "id": 2
+    },
+    {
+      "subtitulo": "testes",
+      "id_pergunta": "1",
+      "autor_pergunta": "douglas",
+      "Like": 0,
+      "data": "15/12/2021",
+      "id": 3
     }
   ]
 }

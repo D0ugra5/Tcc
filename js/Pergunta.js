@@ -81,7 +81,7 @@
                 document.getElementById("multiplaResp").innerHTML +=
                 '<div class="card mt-4">'
                 +'<div class="card-header">'
-                +'Respondida Por '+resp[i].autor_pergunta+'  Resposta feita em '+resp[i].data+''
+                +'Respondida Por '+resp[i].autor_pergunta+'  em '+resp[i].data+''
                 +' </div>'
                 +'<div class="card-body">'
                 +'<p class="card-text">'+resp[i].subtitulo+'</p>'
