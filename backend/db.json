@@ -27,6 +27,15 @@
       "linkedin": "https://www.linkedin.com/in/douglas-sousa-636a79197/",
       "github": "d0ugra5",
       "id": "IK24GY9"
+    },
+    {
+      "email": "gabriel2000@gmail.com",
+      "senha": "123",
+      "nome": "Gabriel",
+      "Sobrenome": "Cabral",
+      "linkedin": "Gabriel Cabral",
+      "github": "CabralDevs",
+      "id": "Pw_hKXD"
     }
   ],
   "perguntas": [
@@ -54,28 +63,21 @@
   ],
   "resposta": [
     {
-      "subtitulo": "Testes",
-      "id_pergunta": "2",
-      "autor_pergunta": "douglas",
-      "Like": 2,
-      "data": "13/12/2021",
+      "subtitulo": "A Daily Scrum é, basicamente, uma reunião diária, que deve durar não mais que 15 minutos. Essa conversa visa entender sobre o que já foi feito, o que precisa ser colocado em prática naquele dia e identificar gargalos que estejam impossibilitando o andamento dos processos",
+      "id_pergunta": "1",
+      "autor_pergunta": "Gabriel",
+      "Like": 0,
+      "data": "15/12/2021",
       "id": 1
     },
     {
-      "subtitulo": "daddadadad",
-      "id_pergunta": "2",
-      "autor_pergunta": "Jão",
-      "Like": 0,
-      "data": "13/12/2021",
-      "id": 2
-    },
-    {
-      "subtitulo": "testes",
-      "id_pergunta": "1",
-      "autor_pergunta": "douglas",
-      "Like": 0,
+      "subtitulo": "1-Dê atenção aos sinais de alerta. ...\n2-Entenda que a comunicação é fundamental. ...\n3-Estabeleça e organize suas prioridades. ...\n4-Compreenda os gatilhos de estresse. ...\n5-Tenha uma rede de apoio. ...\n6-Limite seu tempo de trabalho. ...\n7-Aprenda a dizer não",
+      "id_pergunta": "3",
+      "autor_pergunta": "Gabriel",
+      "Like": 45,
       "data": "15/12/2021",
-      "id": 3
+      "id": 2
     }
+   
   ]
 }
